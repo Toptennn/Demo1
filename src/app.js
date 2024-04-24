@@ -3,7 +3,7 @@ const dayOfTheWeek = (date = new Date()) => {
 
     return days[date.getDay()];
 }
-
+//ujhuiu
 
 try {
     document.getElementById('day').innerText = dayOfTheWeek();
